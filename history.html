@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Book Store App</title> 
+  </head>
+  <body>
+    <h1>Book Store App
+    </h1>
+    <div hidden>
+     
+      <input type="text" id="search-box" placeholder="Search">
+      <button onclick="searchBooks()">Search</button>
+      <button onclick="handleHistory()">History</button>
+
+    </div>
+    <div>
+      <h2 >Your Previous Searches</h2>
+      <ol id="search-history"></ol>
+    </div>
+    <div id="book-list"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
