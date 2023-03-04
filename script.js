@@ -17,6 +17,11 @@ function searchBooks() {
     });
 }
 
+
+function refMain() {
+    window.location.href = "./index.html";   
+  }
+
 function displayBooks(books) {
   bookList.innerHTML = "";
   if (!books || books.length === 0) {
