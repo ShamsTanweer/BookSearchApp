@@ -93,5 +93,8 @@ searchHistory.addEventListener("click", (event) => {
 function handleHistory() {
   window.location.href = "./history.html";
 }
+function refMain() {
+    window.location.href = "./index.html";   
+  }
 
 displaySearchHistory();
